@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- basic -->
+		<meta charset="utf-8">
+		<meta
+		http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- mobile metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta
+		name="viewport" content="initial-scale=1, maximum-scale=1">
+		<!-- site metas -->
+		<title>microo</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta
+		name="author" content="">
+		<!-- bootstrap css -->
+		<link
+		rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- style css -->
+		<link
+		rel="stylesheet" href="css/style.css">
+		<!-- responsive-->
+		<link
+		rel="stylesheet" href="css/responsive.css">
+		<!-- awesome fontfamily -->
+		<link
+		rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--[if lt IE 9]>
+				      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+				      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	</head>
+	<!-- body -->
+	<body
+		class="main-layout">
+		<!-- loader  -->
+		<div class="loader_bg">
+			<div class="loader"><img src="images/loading.gif" alt=""/></div>
+		</div>
+		<!-- end loader -->
+		<div id="mySidepanel" class="sidepanel">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a class="active" href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="searvices.html">Searvices</a>
+			<a href="shop.html">Shop</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<!-- header -->
+		<header>
+			<!-- header inner -->
+			<div class="head-top">
+				<div class="container-fluid">
+					<div class="row d_flex">
+						<div class="col-sm-3">
+							<div class="logo">
+								<a href="index.html"><img src="./stb-logo.png">\</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+		<!-- start slider section -->
+		<div id="top_section" class=" banner_main">
+			<div class="container">
+				<div class="row d_flex">
+					<div class="col-md-6">
+						<div class="airmic">
+
+							<h2 class="mt-4 text-light">Transcript</h2>
+							<div class="p-3" style="border: 1px solid gray; height:auto; border-radius: 8px;">
+								<span id="final" class="text-light"></span>
+								<span id="interim" class="text-secondary"></span>
+							</div>
+							<h2 class="mt-4 text-light">Braille Transcript</h2>
+							<div class="p-3" style="border: 1px solid gray; height: auto; border-radius: 8px;">
+								<span id="braille" class="text-light"></span>
+							</div>
+							<div class="mt-4">
+								<button class="btn btn-success" id="start">Start</button>
+								<button class="btn btn-danger" id="stop">Stop</button>
+								<p id="status" class="lead mt-3 text-light" style="display: none">Listening ...</p>
+							</div>
+
+
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mic_img">
+							<figure><img src="images/right_side.png" alt="#"/></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end slider section -->
+		<!-- about -->
+		<div id="about" class="about">
+			<div class="container-fluid">
+				<div class="row d_flex">
+					<div class="col-md-6">
+						<div class="titlepage text_align_left">
+							<h2>About Us</h2>
+							<p>Welcome to Speech To Braille, where innovation meets accessibility. We specialize in converting spoken language into written text and seamlessly translating text into Braille, empowering individuals with visual impairments and other disabilities. Our advanced Speech-to-Text and Text-to-Braille technologies ensure accurate and reliable communication, designed with user-centric and accessible principles at heart. At Speech To Braille, we envision a world without barriers, where everyone can access information effortlessly. Join us in creating an inclusive future by exploring our cutting-edge solutions today.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about_img">
+							<figure><img class="img_responsive" src="images/about_img.jpg" alt="#"/></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end about -->
+		<!-- contact section -->
+<div class="contact left_cross_right">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="titlepage text_align_left">
+					<h2>Feedback</h2>
+					<p>We value your feedback! Please use this form to share your thoughts, suggestions, or concerns about our website. Your input helps us improve and provide a better experience for all our users. Thank you for taking the time to give us your feedback.</p>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<form id="feedbackForm" class="main_form">
+					<div class="row">
+						<div class="col-md-12 ">
+							<input class="contactus" placeholder="Your Name" type="text" name="name" id="name">
+						</div>
+						<div class="col-md-6">
+							<input class="contactus" placeholder="Email" type="email" name="email" id="email">
+						</div>
+						<div class="col-md-6">
+							<input class="contactus" placeholder="Phone Number" type="text" name="phoneNumber" id="phoneNumber">
+						</div>
+						<div class="col-md-12">
+							<textarea class="textarea" placeholder="Message" name="message" id="message"></textarea>
+						</div>
+						<div class="col-md-12">
+							<button class="send_btn" type="button" onclick="saveFeedback()">Send</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</html></div><!-- end contact section --><!-- footer --><footer>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="Informa conta">
+					<!-- <h3>Adderess</h3> -->
+					<ul>
+						<li>
+							Braille is Knowledge, and
+							<br>Knowledge is Power.
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="Informa conta">
+					<h3>Contact Us</h3>
+					<ul>
+						<li><a href="Javascript:void(0)">9449907192</a></li>
+						<li><a href="Javascript:void(0)">poorvakumari12@gmail.com</a></li>
+					</ul>
+				</div>
+				<ul class="social_icon text_align_center">
+					<li>
+						<a href="Javascript:void(0)">
+							<i class="fa fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="Javascript:void(0)">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="Javascript:void(0)">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="copyright text_align_center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<p>© 2024 All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></footer><!-- end footer --><!-- Javascript files-->{# <script src="js/jquery.min.js"></script>
+				<script src="js/bootstrap.bundle.min.js"></script>
+				<script src="js/jquery-3.0.0.min.js"></script>
+				<script src="js/custom.js"></script> #}<script src="./speechRec.js"> </script></body></html>
